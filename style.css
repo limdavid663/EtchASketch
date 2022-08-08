@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #ccc;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    width: 480px;
+    height: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+
+.container div{
+    background-color: white;
+    border: 1px solid black;
+    width: calc(480px / 16);
+    height: calc(480px / 16);
+}
+
+.container{
+    color: rgb(red, green, blue);
+}
